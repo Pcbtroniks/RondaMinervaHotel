@@ -12,7 +12,7 @@ Route::get('/installations', [RondaController::class, 'installations'])->name('i
 
 Route::get('/services', [RondaController::class, 'services'])->name('services');
 
-Route::get('/contact', [RondaController::class, 'services'])->name('contact');
+Route::get('/contact', [RondaController::class, 'contact'])->name('contact');
 
 
 // Construction pages
