@@ -8,10 +8,10 @@
 
         <div class="sm:order-3">
             <ul class="grid grid-cols-2 gap-7">
-                <li><img src="{{ asset('assets/icons/socials/WhatsApp Inc.svg') }}" alt="WhatsApp"></li>
-                <li><img src="{{ asset('assets/icons/socials/Facebook.svg') }}" alt="Facebook"></li>
-                <li><img src="{{ asset('assets/icons/socials/Instagram.svg') }}" alt="Instagram"></li>
-                <li><img src="{{ asset('assets/icons/socials/Twitter.svg') }}" alt="Twitter"></li>
+                <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B523334410641&text=Hola,%20quiero%20hacer%20una%20nueva%20reserva."><img src="{{ asset('assets/icons/socials/WhatsApp Inc.svg') }}" alt="WhatsApp"></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100083949546299"><img src="{{ asset('assets/icons/socials/Facebook.svg') }}" alt="Facebook"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/hotelrondaminerva/"><img src="{{ asset('assets/icons/socials/Instagram.svg') }}" alt="Instagram"></a></li>
+                <li><a target="_blank" href="https://twitter.com/RondaMinervaHtl"><img src="{{ asset('assets/icons/socials/Twitter.svg') }}" alt="Twitter"></a></li>
             </ul>
         </div>
 
