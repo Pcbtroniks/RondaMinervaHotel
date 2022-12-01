@@ -11,23 +11,23 @@
                 <a href="javascript:void(0)" class="absolute top-0 right-0   focus:bg-red-500 text-white float-right w-14 h-14 leading-tight text-[2.5rem] text-center transition-all duration-150 rounded-xl rounded-shadow" onclick="closeNav()">&times;</a>
             </li>
 
-            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b p-4 cursor-pointer transition">
-                <a class="text-lg font-light" href="{{route('home')}}">Inicio</a>
+            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+                <a class="text-lg font-light" href="{{route('home')}}"><p class="p-4">Inicio</p></a>
             </li>
 
-            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b p-4 cursor-pointer transition">
-                <a class="text-lg font-light" href="{{route('rooms')}}">Habitaciones</a>
+            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+                <a class="text-lg font-light" href="{{route('rooms')}}"><p class="p-4">Habitaciones</p></a>
             </li>
 
-            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b p-4 cursor-pointer transition">
-                <a class="text-lg font-light" href="{{route('installations')}}">Instalaciones</a>
+            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+                <a class="text-lg font-light" href="{{route('installations')}}"><p class="p-4">Instalaciones</p></a>
             </li>
 
-            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b p-4 cursor-pointer transition">
-                <a class="text-lg font-light" href="{{route('services')}}">Servicios</a>
+            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+                <a class="text-lg font-light" href="{{route('services')}}"><p class="p-4">Servicios</p></a>
 
-            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b p-4 cursor-pointer transition">
-                <a class="text-lg font-light" href="{{route('contact')}}">Contacto</a></a>
+            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+                <a class="text-lg font-light" href="{{route('contact')}}"><p class="p-4">Contacto</p></a>
             </li>
         </ul>
     </section>
