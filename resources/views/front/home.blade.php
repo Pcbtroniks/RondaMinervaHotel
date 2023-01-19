@@ -35,6 +35,11 @@
 
 @section('css')
 
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="{{ asset('assets/owl-carousel/owl.carousel.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/owl-carousel/owl.theme.default.min.css') }}">
+
+
 <!-- AOS -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -94,6 +99,48 @@
 
 @endsection
 @section('js')
+
+{{-- Slide --}}
+
+<script src="{{ asset('assets/js/libs/jquery-3.6.3.min.js') }}"></script>
+<script src="{{ asset('assets/owl-carousel/owl.carousel.min.js') }}"></script>
+
+<script>
+    $(document).ready(function(){
+
+// $('#hero-carousel').owlCarousel({
+//     items: 1,
+//     autoplay: true,
+//     loop: true,
+//     autoplayTimeout: 4000,
+//     autoplayHoverPause: true,
+//     animateOut: 'fadeOut',
+//     animateIn: 'fadeIn',
+//     autoWidth:true,
+//     responsive:{
+//         1200: {
+//             autoWidth:false,
+//         }
+//     }
+
+// });
+
+$('#comments-carousel').owlCarousel({
+    items: 1,
+    autoplay: true,
+    loop: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: true,
+    navdots: true,
+    responsive:{
+        600: {
+            items: 2
+        }
+    }
+});
+
+});
+</script>
 
 <!-- DatePicker -->
 
