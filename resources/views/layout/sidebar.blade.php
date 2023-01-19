@@ -7,6 +7,7 @@
         <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('home')}}">Inicio</a>
         <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('rooms')}}">Habitaciones</a>
         <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('installations')}}">Instalaciones</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('visit')}}">Visita Guadalajara</a>
         <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('services')}}">Servicios</a>
         <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{{route('contact')}}">Contacto</a>
     </div>

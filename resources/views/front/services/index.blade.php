@@ -18,7 +18,7 @@
                         </div>
                         <div class="si-text">
                             <h3>Al Edén Restaurante</h3>
-                            <p>En nuestro restaurante <a href="https://aleden.hotelarborea.com/">‘‘Al Edén’’</a>  podrás degustar de deliciosos platillos de la cocina mexicana e internacionales y de tus bebidas favoritas. Contamos con servicio a la habitación sin costo alguno.<br>
+                            <p>En nuestro restaurante <a href="https://rondaminervahotel.test/files/restaurant-menu.pdf">‘‘Al Edén’’</a>  podrás degustar de deliciosos platillos de la cocina mexicana e internacionales y de tus bebidas favoritas. Contamos con servicio a la habitación sin costo alguno.<br>
                             <b>Horario de 07:00 a 21:00 hrs lunes a domingo</b></p>
                         </div>
                     </div>
