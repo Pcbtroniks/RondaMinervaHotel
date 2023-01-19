@@ -25,6 +25,12 @@ class RondaController extends Controller
      
     }
 
+    public function visit() {
+     
+        return view('front.visit.visit');
+     
+    }
+
     public function services() {
      
         return view('front.services.index');

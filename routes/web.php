@@ -10,6 +10,8 @@ Route::get('/rooms', [RondaController::class, 'rooms'])->name('rooms');
 
 Route::get('/installations', [RondaController::class, 'installations'])->name('installations');
 
+Route::get('/visita-guadalajara', [RondaController::class, 'visit'])->name('visit');
+
 Route::get('/services', [RondaController::class, 'services'])->name('services');
 
 Route::get('/contact', [RondaController::class, 'contact'])->name('contact');

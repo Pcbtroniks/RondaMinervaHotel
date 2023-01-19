@@ -24,6 +24,10 @@
             </li>
 
             <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
+                <a class="text-lg font-light" href="{{route('visit')}}"><p class="p-4">Visita Guadalajara</p></a>
+            </li>
+
+            <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
                 <a class="text-lg font-light" href="{{route('services')}}"><p class="p-4">Servicios</p></a>
 
             <li class="relative hover:bg-ronda-ligth hover:text-ronda-dark text-ronda-dark-medium border-black border-opacity-30 border-b cursor-pointer transition">
