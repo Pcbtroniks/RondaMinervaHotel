@@ -15,7 +15,7 @@ class RondaController extends Controller
 
     public function rooms() {
     
-        return view('front.rooms.index');
+        return view('front.rooms.rooms');
     
     }
 
