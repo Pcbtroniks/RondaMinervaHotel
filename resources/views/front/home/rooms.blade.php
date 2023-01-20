@@ -105,8 +105,10 @@
                         </ul>
                     </div>
 
-                    <div >
-                        <button class="my-5 w-36 h-12 font-bold bg-ronda-orange text-white text-sm">Reservar Ahora</button>
+                    <div>
+                        <a href="{{ route('contact') }}">
+                            <button class="my-5 w-36 h-12 font-bold bg-ronda-orange text-white text-sm">Reservar Ahora</button>
+                        </a>
                     </div>
 
                 </div>
@@ -144,7 +146,9 @@
                     </div>
 
                     <div >
-                        <button class="my-5 w-36 h-12 font-bold bg-ronda-orange text-white text-sm">Reservar Ahora</button>
+                        <a href="{{ route('contact') }}">
+                            <button class="my-5 w-36 h-12 font-bold bg-ronda-orange text-white text-sm">Reservar Ahora</button>
+                        </a>
                     </div>
 
                 </div>
@@ -177,8 +181,10 @@
                         </ul>
                     </div>
 
-                    <div >
-                        <button class="my-5 w-36 h-12 font-bold bg-ronda-orange text-white text-sm">Reservar Ahora</button>
+                    <div>
+                        <a href="{{ route('contact') }}">
+                            <button class="my-5 w-36 h-12 font-bold bg-ronda-orange text-white text-sm">Reservar Ahora</button>
+                        </a>
                     </div>
 
                 </div>

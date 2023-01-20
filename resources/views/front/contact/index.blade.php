@@ -37,17 +37,19 @@
             </div>
             <div class="row">
                 <div class="col-lg-8">
-                    <form action="#" class="contact-form">
+                    <form method="POST" action="{{ route('contact.store') }}" class="contact-form">
+                        @csrf
+                        
                         <div class="row">
                             <div class="col-lg-6">
-                                <input type="text" placeholder="Nombre">
+                                <input name="name" type="text" placeholder="Nombre" required>
                             </div>
                             <div class="col-lg-6">
-                                <input type="email" placeholder="Email">
+                                <input name="email" type="email" placeholder="Email" required>
                             </div>
                             <div class="col-lg-12">
-                                <input type="text" class="subject" placeholder="Asunto">
-                                <textarea placeholder="Mensaje"></textarea>
+                                <input name="subject" type="text" class="subject" placeholder="Asunto">
+                                <textarea name="message" placeholder="Mensaje" required></textarea>
                                 <button type="submit">Enviar</button>
                             </div>
                         </div>

@@ -16,6 +16,8 @@ Route::get('/services', [RondaController::class, 'services'])->name('services');
 
 Route::get('/contact', [RondaController::class, 'contact'])->name('contact');
 
+Route::post('/contact', [RondaController::class, 'contactStore'])->name('contact.store');
+
 
 // Construction pages
 

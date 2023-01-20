@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
 
 class RondaController extends Controller
 {
@@ -40,6 +42,21 @@ class RondaController extends Controller
     public function contact() {
      
         return view('front.contact.index');
+     
+    }
+
+    public function contactStore() {
+
+        $data = request()->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'subject' => 'nullable|string',
+            'message' => 'required',
+        ]);
+     
+        Mail::to('reservaciones@rondaminervahotel.com')->send(new ContactMail($data));
+
+        return redirect()->route('contact')->with('success', 'Mensaje enviado correctamente');
      
     }
 
