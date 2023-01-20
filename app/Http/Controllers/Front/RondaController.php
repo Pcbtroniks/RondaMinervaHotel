@@ -21,7 +21,7 @@ class RondaController extends Controller
 
     public function installations() {
      
-        return view('front.installations.index');
+        return view('front.installations.installations');
      
     }
 
