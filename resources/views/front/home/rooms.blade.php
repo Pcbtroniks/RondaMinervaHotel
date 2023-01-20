@@ -84,27 +84,24 @@
             <div data-aos="fade-up" class="xl:col-span-2 shadow-card lg:w-[391px] md:w-[605px] mb-5 bg-white">
 
                 <div class="h-[230px] overflow-hidden">
-                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('/custom/img/hab-3.png') }}" alt="Room Image">
+                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('/custom/img/cupula.jpeg') }}" alt="Room Image">
                 </div>
             
                 <div class="px-6">
 
                     <div class="mt-5 mb-2">
-                        <h3 class="text-xl font-bold">Habitación Con Estacionamiento Garantizado</h3>
+                        <h3 class="text-xl font-bold">Reservación de cúpula en terraza para eventos</h3>
                     </div>
                     <div class="mb-3">
                         <p class="text-xs leading-[18px]">
-                            La Habitación Estándar cuenta con dos camas matrimoniales con capacidad de hasta 4 personas. Baño, aire acondicionado, TV por cable, clóset, secadora de cabello y kit para higiene personal. Además ...
+                            Escápate de la rutina y vive una experiencia única en nuestra impresionante cúpula, el lugar perfecto para cualquier ocasión especial. Ya sea para una boda, fiesta de cumpleaños o simplemente una noche inolvidable. Nuestra cúpula tiene todo lo que necesitas.
                         </p>
                     </div>
 
                     <div class="my-2">
                         <ul class="flex md:justify-start justify-around px-2 nth-rm">
-                            <li><img src="{{ asset('assets/icons/services/tv.png') }}" alt=""></li>
-                            <li><img src="{{ asset('assets/icons/services/wifi.png') }}" alt=""></li>
-                            <li><img src="{{ asset('assets/icons/services/air.png') }}" alt=""></li>
-                            <li><img src="{{ asset('assets/icons/services/park.png') }}" alt=""></li>
-                            <li><img src="{{ asset('assets/icons/services/pool.png') }}" alt=""></li>
+                            <li><img src="{{ asset('assets/icons/services/wifi.png') }}" alt="Wifi Logo"></li>
+                            <li><img src="{{ asset('assets/icons/services/park.png') }}" alt="Park Logo"></li>
                         </ul>
                     </div>
 
