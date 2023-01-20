@@ -91,3 +91,16 @@
     <!-- Map Section End -->
 @endsection
 
+@section('js')
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+@if (session()->has('success'))
+<script>
+    Swal.fire(
+    'Muchas gracias!',
+    '{{ session()->get("success") }}',
+    'success'
+    )
+</script>
+@endif
+@endsection
+
