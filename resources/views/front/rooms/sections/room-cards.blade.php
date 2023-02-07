@@ -14,7 +14,7 @@
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/senc-1.png') }}" alt="">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/sencilla.jpg') }}" alt="Imagen Habitación sencilla">
                         </picture>
                     </div>
 
@@ -58,7 +58,7 @@
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/senc-2.png') }}" alt="">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/sdob/doble.jpg') }}" alt="Imagen Habitación Doble">
                         </picture>
                     </div>
 
