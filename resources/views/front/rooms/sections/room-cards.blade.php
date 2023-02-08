@@ -12,7 +12,7 @@
 
                 <div class="shadow-card flex flex-col lg:flex-row xl:max-h-80 xl:h-80 max-w-[1253px] lg:mx-auto my-8">
 
-                    <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
+                    <div class="h-52 lg:h-full min-h-5 basis-1/3 overflow-hidden">
                         <picture>
                             <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/sencilla.jpg') }}" alt="Imagen Habitación sencilla">
                         </picture>

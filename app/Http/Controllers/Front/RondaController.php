@@ -39,6 +39,12 @@ class RondaController extends Controller
      
     }
 
+    public function restaurantMedia() {
+     
+        return view('front.restaurant.restaurant-media');
+     
+    }
+
     public function contact() {
      
         return view('front.contact.index');

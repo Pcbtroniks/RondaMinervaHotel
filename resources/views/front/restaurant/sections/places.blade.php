@@ -1,7 +1,7 @@
 <section>
 
     <div class="space-y"></div>
-    <div class="lg:p-20 p-0 bg-ronda-ligth">
+    <div class="lg:p-20 p-0">
 
         <div class="shadow-card flex md:grid md:grid-cols-2 flex-col-reverse">
 
