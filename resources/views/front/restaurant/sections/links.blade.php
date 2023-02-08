@@ -8,6 +8,7 @@
             </div>
             <div class="ml-2 sm:ml-6">
                 <h2 class="sm:text-sm uppercase font-medium">Restaurant Al Eden</h2>
+                <p class="text-xs">En nuestro restaurante ‘‘Al Edén’’ podrás degustar de deliciosos platillos.</p>
             </div>
         </a>
 
@@ -16,7 +17,7 @@
                 <img class="w-full" src="{{ asset('assets/icons/socials/facebook-color.svg') }}" alt="Logo restaurant">
             </div>
             <div class="ml-2 sm:ml-6">
-                <h2 class="sm:text-sm uppercase font-medium">!Siguenos!</h2>
+                <h2 class="sm:text-sm uppercase font-medium">¡Siguenos!</h2>
                 <p class="text-xs">Siguenos en redes sociales, y descubre todos los servicios que tenemos para ti.</p>
             </div>
         </a>
@@ -26,7 +27,7 @@
                 <img class="w-full" src="{{ asset('assets/icons/socials/instagram-color.svg') }}" alt="Logo restaurant">
             </div>
             <div class="ml-2 sm:ml-6">
-                <h2 class="sm:text-sm uppercase font-medium">!Comparte Grandes Momentos!</h2>
+                <h2 class="sm:text-sm uppercase font-medium">¡Comparte Grandes Momentos!</h2>
                 <p class="text-xs">No olvides compartir tus historias con nosotros. #RondaMinerva</p>
             </div>
         </a>
@@ -36,7 +37,7 @@
                 <img class="w-full" src="{{ asset('assets/icons/socials/twitter-round-color-icon.svg') }}" alt="Logo restaurant">
             </div>
             <div class="ml-2 sm:ml-6">
-                <h2 class="sm:text-sm uppercase font-medium">!Siguenos!</h2>
+                <h2 class="sm:text-sm uppercase font-medium">¡Siguenos!</h2>
                 <p class="text-xs">Siguenos en redes sociales, y descubre todos los servicios que tenemos para ti.</p>
             </div>
         </a>
