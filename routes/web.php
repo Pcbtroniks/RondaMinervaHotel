@@ -14,7 +14,7 @@ Route::get('/visita-guadalajara', [RondaController::class, 'visit'])->name('visi
 
 Route::get('/services', [RondaController::class, 'services'])->name('services');
 
-Route::get('/restaurant-media', [RondaController::class, 'restaurantMedia'])->name('restaurant-media');
+Route::get('/files/restaurant-menu.pdf', [RondaController::class, 'restaurantMedia'])->name('restaurant-media');
 
 Route::get('/contact', [RondaController::class, 'contact'])->name('contact');
 

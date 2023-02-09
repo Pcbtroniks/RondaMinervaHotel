@@ -125,7 +125,7 @@
                             </div>
                         </div>
                         <div class="si-text">
-                            <h3>#EscapadaArbórea</h3>
+                            <h3>#EscapadaRondaMinerva</h3>
                             <p>Merecen esa escapada romántica esa persona especial y tú, pregunta por nuestros paquetes lunamieleros no te arrepentirás. </p>
                         </div>
                     </div>
