@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Front\RondaController;
+use App\Http\Controllers\Front\SatisfactionSurveyController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -19,6 +20,10 @@ Route::get('/files/restaurant-menu.pdf', [RondaController::class, 'restaurantMed
 Route::get('/contact', [RondaController::class, 'contact'])->name('contact');
 
 Route::post('/contact', [RondaController::class, 'contactStore'])->name('contact.store');
+
+Route::get('/satisfaction-survey', [SatisfactionSurveyController::class, 'index'])->name('satisfaction-survey');
+
+Route::post('/satisfaction-survey', [SatisfactionSurveyController::class, 'store'])->name('satisfaction-survey.store');
 
 
 // Construction pages
