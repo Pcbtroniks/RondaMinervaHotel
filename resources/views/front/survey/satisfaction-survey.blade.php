@@ -44,7 +44,7 @@
     }
     function niceUserFeedback(){
         alerta('Gracias por tu opinión', 'Tu opinión es muy importante para nosotros, recuerda recomendarnos y dejarnos una reseña en nuestras redes.', 'success').then((result) => {
-            window.location.href = "{{ route('restaurant-media') }}";
+            window.location.href = "{{ route('restaurant-media.altern') }}";
         })
     }
 </script>
