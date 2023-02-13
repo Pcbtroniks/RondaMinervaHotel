@@ -38,6 +38,11 @@
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Servicios</a></li>
         </ul>
+        <div>
+            <p class="text-center text-white text-xs mt-2">
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Powered by <a href="https://pcbtroniks.com/" target="_blank">PCBTRONIKS</a>
+            </p>
+        </div>
     </div>
 
 </footer>
