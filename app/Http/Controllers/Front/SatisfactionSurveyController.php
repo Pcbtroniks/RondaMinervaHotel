@@ -23,4 +23,9 @@ class SatisfactionSurveyController extends Controller
 
         return dd($request->all());
     }
+
+    public function socials()
+    {
+        return view('front.socials.socials');
+    }
 }

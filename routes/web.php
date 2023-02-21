@@ -27,6 +27,8 @@ Route::get('/satisfaction-survey', [SatisfactionSurveyController::class, 'index'
 
 Route::post('/satisfaction-survey', [SatisfactionSurveyController::class, 'store'])->name('satisfaction-survey.store');
 
+Route::get('/social-networks', [SatisfactionSurveyController::class, 'socials'])->name('social-networks');
+
 
 // Construction pages
 
