@@ -30,6 +30,9 @@ Route::post('/satisfaction-survey', [SatisfactionSurveyController::class, 'store
 Route::get('/social-networks', [SatisfactionSurveyController::class, 'socials'])->name('socials');
 
 
+Route::get('/satisfaction-survey/count/results', [SatisfactionSurveyController::class, 'results'])->name('satisfaction-survey.results');
+
+
 // Construction pages
 
 Route::get('/recomended-rooms', function () {return view('recomended-rooms.index');})->name('recomended-rooms');

@@ -35,4 +35,16 @@ class SatisfactionSurveyController extends Controller
     {
         return view('front.socials.socials');
     }
+
+    public function results()
+    {
+        $badCount = SatisfactionSurvey::where('value', 'malo')->count() ?? 0;
+        $regularCount = SatisfactionSurvey::where('value', 'regular')->count() ?? 0;
+        $goodCount = SatisfactionSurvey::where('value', 'bueno')->count()?? 0;
+        return view('front.survey-counter.survey-counter',[
+            'badCount' => $badCount,
+            'regularCount' => $regularCount,
+            'goodCount' => $goodCount,
+        ]);
+    }
 }
