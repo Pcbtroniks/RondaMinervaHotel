@@ -37,12 +37,44 @@
         })
     }
 
-    function userFeedback(){
+    async function sendFeedback(value){
+        const url = "{{ route('satisfaction-survey.store') }}";
+
+        // make a function to send the data to the server
+        const data = {
+            satisfaction: value,
+            _token: "{{ csrf_token() }}"
+        }
+
+        try {
+            
+            const response = await fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'X-CSRF-TOKEN': data._token
+                }
+            });
+
+            const result = await response.json();
+            console.log(result);
+        } catch (error) {
+            console.log(error);
+        }
+
+    }
+
+    function userFeedback(value){
+        sendFeedback(value);
         alerta('Gracias por tu opinión', 'Tu opinión es muy importante para nosotros', 'success').then((result) => {
             window.location.href = "{{ route('home') }}";
         })
     }
-    function niceUserFeedback(){
+    function niceUserFeedback(value){
+        sendFeedback(value);
         alerta('Gracias por tu opinión', 'Tu opinión es muy importante para nosotros, recuerda recomendarnos y dejarnos una reseña en nuestras redes.', 'success').then((result) => {
             window.location.href = "{{ route('socials') }}";
         })

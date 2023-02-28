@@ -11,19 +11,19 @@
             </div>
             
             <div class="flex justify-between items-center">
-                <div onclick="userFeedback()" class="text-5xl sm:text-8xl md:text-9xl bg-ronda-orange/30 hover:bg-ronda-orange/70 duration-300 p-2 lg:p-4 rounded-xl cursor-pointer">
+                <div onclick="userFeedback('malo')" class="text-5xl sm:text-8xl md:text-9xl bg-ronda-orange/30 hover:bg-ronda-orange/70 duration-300 p-2 lg:p-4 rounded-xl cursor-pointer">
                     <span>
                         🙁
                     </span>
                     <p class="text-xs text-center mt-4">Meh...</p>
                 </div>
-                <div onclick="userFeedback()" class="text-5xl sm:text-8xl md:text-9xl bg-ronda-orange/30 hover:bg-ronda-orange/70 duration-300 p-2 lg:p-4 rounded-xl cursor-pointer">
+                <div onclick="userFeedback('regular')" class="text-5xl sm:text-8xl md:text-9xl bg-ronda-orange/30 hover:bg-ronda-orange/70 duration-300 p-2 lg:p-4 rounded-xl cursor-pointer">
                     <span>
                         😐
                     </span>
                     <p class="text-xs text-center mt-4">Ok</p>
                 </div>
-                <div onclick="niceUserFeedback()" class="text-5xl sm:text-8xl md:text-9xl bg-ronda-orange/30 hover:bg-ronda-orange/70 duration-300 p-2 lg:p-4 rounded-xl cursor-pointer">
+                <div onclick="niceUserFeedback('bueno')" class="text-5xl sm:text-8xl md:text-9xl bg-ronda-orange/30 hover:bg-ronda-orange/70 duration-300 p-2 lg:p-4 rounded-xl cursor-pointer">
                     <span>
                         😃
                     </span>
