@@ -58,7 +58,6 @@
                 <div class="col-lg-4">
                     <div class="info-box">
                         <img src="{{asset('/img/logos/Ronda_Minerva-logo-blackandorange.png')}}" style="width: 13rem" alt="">
-                        {{-- <img src="{{asset('custom/img/contact-logo.png')}}" alt=""> --}}
                         <ul>
                             <li>265 Av. Adolfo López Mateos Sur, <br />Guadalajara, Jal.</li>
                             <li>+52 3331214700</li>

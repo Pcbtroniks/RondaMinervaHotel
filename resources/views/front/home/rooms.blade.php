@@ -10,7 +10,7 @@
 
                 {{-- <div class="w-[330px]] h-[230px] overflow-hidden"> --}}
                 <div class="h-[230px] overflow-hidden">
-                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/hab/senc/sencilla.jpg') }}" alt="Room Image">
+                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/hab/senc/RondaMinerva_hospedaje_en_guadalajara_habitacion_sencilla.jpg') }}" alt="Room Image">
                 </div>
             
                 <div class="px-6">
@@ -47,7 +47,7 @@
             <div data-aos="fade-up" class="xl:col-span-3 shadow-card xl:w-[34rem] 2xl:w-[605px] max-w-[605px] lg:w-[391px] md:w-[605px] mb-5 bg-white">
 
                 <div class="w-[330px]] h-[230px] overflow-hidden">
-                    <img class="sm:w-full sm:h-full sm:object-cover sm:object-bottom w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/hab/sdob/doble.jpg') }}" alt="Room Image">
+                    <img class="sm:w-full sm:h-full sm:object-cover sm:object-bottom w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/hab/sdob/RondaMinerva_hospedaje_en_guadalajara_habitacion_doble.jpg') }}" alt="Room Image">
                 </div>
             
                 <div class="px-6">
@@ -84,7 +84,7 @@
             <div data-aos="fade-up" class="xl:col-span-2 shadow-card lg:w-[391px] md:w-[605px] mb-5 bg-white">
 
                 <div class="h-[230px] overflow-hidden">
-                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('/custom/img/cupula.jpeg') }}" alt="Room Image">
+                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('/custom/img/RondaMinerva_hospedaje_en_guadalajara_cupula.jpeg') }}" alt="Room Image">
                 </div>
             
                 <div class="px-6">
@@ -118,7 +118,7 @@
             <div data-aos="fade-up" class="xl:col-span-2 shadow-card lg:w-[391px] md:w-[605px] mb-5 bg-white">
 
                 <div class="h-[230px] overflow-hidden">
-                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/ins/alberca-2.png') }}" alt="Room Image">
+                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/ins/RondaMinerva_hospedaje_en_guadalajara_alberca-climatizada.png') }}" alt="Room Image">
                 </div>
             
                 <div class="px-6">
@@ -158,7 +158,7 @@
             <div data-aos="fade-up" class="xl:col-span-2 shadow-card lg:w-[391px] md:w-[605px] mb-5 bg-white">
 
                 <div class="h-[230px] overflow-hidden">
-                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/ins/evento-2.png') }}" alt="Room Image">
+                    <img class="sm:w-full sm:h-full sm:object-cover w-[200%] h-[230px] hover:scale-150 duration-500" src="{{ asset('custom/img/ins/RondaMinerva_hospedaje_en_guadalajara_salon_de_eventos.png') }}" alt="Room Image">
                 </div>
             
                 <div class="px-6">

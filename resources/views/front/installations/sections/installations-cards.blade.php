@@ -14,7 +14,7 @@
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('/custom/img/ins/restaurante-1.jpg') }}" alt="Restaurant Photography">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('/custom/img/ins/RondaMinerva_hospedaje_en_guadalajara_cena_romantica.jpg') }}" alt="Restaurant Photography">
                         </picture>
                     </div>
 
@@ -57,7 +57,7 @@
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('/custom/img/ins/alberca-1.png') }}" alt="Restaurant Photography">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('/custom/img/ins/RondaMinerva_hospedaje_en_guadalajara_alberca.png') }}" alt="Restaurant Photography">
                         </picture>
                     </div>
 
@@ -98,7 +98,7 @@
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('/custom/img/ins/evento-2.png') }}" alt="Restaurant Photography">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('/custom/img/ins/RondaMinerva_hospedaje_en_guadalajara_salon_de_eventos.png') }}" alt="Restaurant Photography">
                         </picture>
                     </div>
 

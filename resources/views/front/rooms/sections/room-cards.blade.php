@@ -14,7 +14,7 @@
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/sencilla.jpg') }}" alt="Imagen Habitación sencilla">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/RondaMinerva_hospedaje_en_guadalajara_habitacion_sencilla.jpg') }}" alt="Imagen Habitación sencilla">
                         </picture>
                     </div>
 
@@ -58,7 +58,7 @@
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/sdob/doble.jpg') }}" alt="Imagen Habitación Doble">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/sdob/RondaMinerva_hospedaje_en_guadalajara_habitacion_doble.jpg') }}" alt="Imagen Habitación Doble">
                         </picture>
                     </div>
 
@@ -98,11 +98,11 @@
 
                 {{-- card --}}
 
-                <div class="hidden shadow-card flex flex-col lg:flex-row xl:max-h-80 xl:h-80 max-w-[1253px] lg:mx-auto my-8">
+                <div class="hidden shadow-card flex-col lg:flex-row xl:max-h-80 xl:h-80 max-w-[1253px] lg:mx-auto my-8">
 
                     <div class="h-52 lg:h-full min-h-5 basis-1/3 lg:overflow-hidden">
                         <picture>
-                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/senc-3.png') }}" alt="">
+                            <img class="h-full w-full object-cover lg:h-96 xl:h-80" src="{{ asset('custom/img/hab/senc/RondaMinerva_hospedaje_en_guadalajara_suite.png') }}" alt="">
                         </picture>
                     </div>
 
