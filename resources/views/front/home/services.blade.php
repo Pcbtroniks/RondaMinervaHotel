@@ -22,7 +22,7 @@
         </div>
 
         <div>
-            <img class="w-full max-h-[630px] object-cover" src="{{ asset('custom/img/ins/alberca-1.png') }}" alt="Servicio">
+            <img class="w-full max-h-[630px] object-cover" src="{{ asset('custom/img/ins/RondaMinerva_hospedaje_en_guadalajara_alberca.png') }}" alt="Servicio">
         </div>
 
     </div>
