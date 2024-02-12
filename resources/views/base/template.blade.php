@@ -27,23 +27,40 @@
         </style>
           @vite('resources/css/app.css')
 
-        <link rel="apple-touch-icon" sizes="57x57" href="{{asset('custom/img/ico/apple-icon-57x57.png')}}">
-        <link rel="apple-touch-icon" sizes="60x60" href="{{asset('custom/img/ico/apple-icon-60x60.png')}}">
-        <link rel="apple-touch-icon" sizes="72x72" href="{{asset('custom/img/ico/apple-icon-72x72.png')}}">
-        <link rel="apple-touch-icon" sizes="76x76" href="{{asset('custom/img/ico/apple-icon-76x76.png')}}">
-        <link rel="apple-touch-icon" sizes="114x114" href="{{asset('custom/img/ico/apple-icon-114x114.png')}}">
-        <link rel="apple-touch-icon" sizes="120x120" href="{{asset('custom/img/ico/apple-icon-120x120.png')}}">
-        <link rel="apple-touch-icon" sizes="144x144" href="{{asset('custom/img/ico/apple-icon-144x144.png')}}">
-        <link rel="apple-touch-icon" sizes="152x152" href="{{asset('custom/img/ico/apple-icon-152x152.png')}}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{{asset('custom/img/ico/apple-icon-180x180.png')}}">
-        <link rel="icon" type="image/png" sizes="192x192"  href="{{asset('custom/img/ico/android-icon-192x192.png')}}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{asset('custom/img/ico/favicon-32x32.png')}}">
-        <link rel="icon" type="image/png" sizes="96x96" href="{{asset('custom/img/ico/favicon-96x96.png')}}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{asset('custom/img/ico/favicon-16x16.png')}}">
-        <link rel="manifest" href="{{asset('custom/img/ico/manifest.json')}}">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="{{asset('custom/img/ico/ms-icon-144x144.png')}}">
+        <!-- Meta Tags -->
+
+        <meta name="description" content="Ronda Minerva Hotel es una joya de la cultura de Jalisco, el corazón de al ciudad de Guadalajara, es un referente de la historia de la ciudad. A solamente unas calles de La Minerva, uno de los sitios más representativos del país">
+        <meta name="keywords" content="Hotel, Guadalajara, Ronda Minerva, Minerva, Hospedaje, Viaje, Turismo, Jalisco, México">
+        <meta name="author" content="Ronda Minerva Hotel">
+        <meta name="robots" content="index, follow">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/favicon/site.webmanifest">
+        <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@RondaMinervaHtl">
+        <meta name="twitter:creator" content="@RondaMinervaHtl">
+        <meta name="twitter:title" content="Hotel Ronda Minerva">
+        <meta name="twitter:description" content="Ronda Minerva Hotel es una joya de la cultura de Jalisco, el corazón de al ciudad de Guadalajara, es un referente de la historia de la ciudad. A solamente unas calles de La Minerva, uno de los sitios más representativos del país">
+        <meta name="twitter:image" content="{{ asset('assets/r.svg') }}">
+        <!-- Facebook -->
+        <meta property="og:url" content="https://rondaminervahotel.com/">
+        <meta property="og:title" content="Hotel Ronda Minerva">
+        <meta property="og:description" content="Ronda Minerva Hotel es una joya de la cultura de Jalisco, el corazón de al ciudad de Guadalajara, es un referente de la historia de la ciudad. A solamente unas calles de La Minerva, uno de los sitios más representativos del país">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="{{ asset('assets/r.svg') }}">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="346">
+        <meta property="og:image:height" content="273">
 
         @yield('css')
     </head>
