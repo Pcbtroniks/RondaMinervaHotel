@@ -51,13 +51,13 @@
         <meta name="twitter:creator" content="@RondaMinervaHtl">
         <meta name="twitter:title" content="Hotel Ronda Minerva">
         <meta name="twitter:description" content="Ronda Minerva Hotel es una joya de la cultura de Jalisco, el corazón de al ciudad de Guadalajara, es un referente de la historia de la ciudad. A solamente unas calles de La Minerva, uno de los sitios más representativos del país">
-        <meta name="twitter:image" content="{{ asset('custom/img/ico/android-chrome-512x512.png') }}">
+        <meta name="twitter:image" content="{{ asset('img/logos/Ronda_Minerva-logo-blackandorange.png') }}">
         <!-- Facebook -->
         <meta property="og:url" content="https://rondaminervahotel.com/">
         <meta property="og:title" content="Hotel Ronda Minerva">
         <meta property="og:description" content="Ronda Minerva Hotel es una joya de la cultura de Jalisco, el corazón de al ciudad de Guadalajara, es un referente de la historia de la ciudad. A solamente unas calles de La Minerva, uno de los sitios más representativos del país">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="{{ asset('custom/img/ico/android-chrome-512x512.png') }}">
+        <meta property="og:image" content="{{ asset('img/logos/Ronda_Minerva-logo-blackandorange.png') }}">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
