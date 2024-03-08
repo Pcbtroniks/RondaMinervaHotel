@@ -60,7 +60,7 @@
                         <img src="{{asset('/img/logos/Ronda_Minerva-logo-blackandorange.png')}}" style="width: 13rem" alt="">
                         <ul>
                             <li>265 Av. Adolfo López Mateos Sur, <br />Guadalajara, Jal.</li>
-                            <li>+52 3331214700</li>
+                            <li>+52 33 1249 0519</li>
                             <li>reservaciones@hotelarborea.com</li>
                             <li>24 Horas</li>
                         </ul>
