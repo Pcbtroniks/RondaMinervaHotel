@@ -8,7 +8,7 @@
 
         <div class="sm:order-3">
             <ul class="grid grid-cols-2 gap-7">
-                <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B523334410641&text=Hola,%20quiero%20hacer%20una%20nueva%20reserva."><img src="{{ asset('assets/icons/socials/WhatsApp Inc.svg') }}" alt="WhatsApp"></a></li>
+                <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B523312490519&text=Hola,%20quiero%20hacer%20una%20nueva%20reserva."><img src="{{ asset('assets/icons/socials/WhatsApp Inc.svg') }}" alt="WhatsApp"></a></li>
                 <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100083949546299"><img src="{{ asset('assets/icons/socials/Facebook.svg') }}" alt="Facebook"></a></li>
                 <li><a target="_blank" href="https://www.instagram.com/hotelrondaminerva/"><img src="{{ asset('assets/icons/socials/Instagram.svg') }}" alt="Instagram"></a></li>
                 <li><a target="_blank" href="https://twitter.com/RondaMinervaHtl"><img src="{{ asset('assets/icons/socials/twitter-x.svg') }}" alt="Twitter"></a></li>
@@ -19,7 +19,7 @@
 
             <h4 class="mb-16 text-lg sm:text-white text-[#40739E]">Informacion de contacto</h4>
 
-            <p class="font-bold mb-16"><span><img class="inline" src="{{ asset('assets/icons/call-outline.svg') }}" alt="call"></span> +52 33 1249 0519</p>
+            <p class="font-bold mb-16"><span><img class="inline" src="{{ asset('assets/icons/call-outline.svg') }}" alt="call"></span> +52 33 3121 4700</p>
             
             <p class="font-bold"><span><img class="inline" src="{{ asset('assets/icons/location-outline.svg') }}" alt="location"></span>  Av. Adolfo López Mateos Sur 265,
                 Jardines del Bosque, 44520 Guadalajara, Jal.</p>

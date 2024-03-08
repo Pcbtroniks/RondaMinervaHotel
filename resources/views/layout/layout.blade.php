@@ -119,7 +119,7 @@
                     <div class="footer-item">
                         <h4 class="text-white">Informacion de contacto</h4>
                         <ul class="text-white mt-4">
-                            <li class="mt-4"><img src="{{ asset('assets/icons/call-outline.svg')}}" alt=""><span class="font-weight-bold">+52 33 1249 0519</span></li>
+                            <li class="mt-4"><img src="{{ asset('assets/icons/call-outline.svg')}}" alt=""><span class="font-weight-bold">+52 33 3121 4700</span></li>
                             <li class="mt-4"><img src="{{ asset('assets/icons/location-outline.svg')}}" alt=""><span class="font-weight-bold">Av. Adolfo López Mateos Sur 265, <br />Jardines del Bosque, 44520 Guadalajara, Jal.</span></li>
                         </ul>
                         {{-- <div id="cont_8d8e1c72dacd1b1f56f1fc2535609b62">
