@@ -15,14 +15,14 @@ use SimpleSoftwareIO\QrCode\Facades\QrCode;
 class PromoController extends Controller
 {
 
-    private $ReceptionEmail = 'jeanmacario048@gmail.com'; 
+    private $ReceptionEmail; 
 
     private Promos $promoRepo;
 
-    public function __construct(Promos $promoRepo){
-
+    public function __construct(Promos $promoRepo)
+    {
         $this->promoRepo = new $promoRepo;
-    
+        $this->ReceptionEmail = 'promociones@rondaminervahotel.com';
     }
 
     public function index($promoCode = false) {
@@ -93,7 +93,7 @@ class PromoController extends Controller
 
         $data['code'] = $code ?? '';
 
-        Mail::to($this->ReceptionEmail)->queue(new PromoCodeMailable($data));
+        Mail::to([$this->ReceptionEmail, $data['email']])->queue(new PromoCodeMailable($data));
 
     }
 
