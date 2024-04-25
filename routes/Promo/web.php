@@ -1,13 +1,13 @@
 <?php
 
-use App\Http\Controllers\PromosController;
+use App\Http\Controllers\Promo\PromoController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::post('/register', [PromosController::class, 'getPromoCode'])->name('promos.register');
+Route::post('/register', [PromoController::class, 'getPromoCode'])->name('promos.register');
 
-Route::get('/verify/{promo_code?}', [PromosController::class, 'verify'])->name('promos.verify');
+Route::get('/verify/{promo_code?}', [PromoController::class, 'verify'])->name('promos.verify');
 
-Route::get('/search', [PromosController::class, 'check'])->name('promos.verify.manual');
+Route::get('/search', [PromoController::class, 'check'])->name('promos.verify.manual');
 
-Route::get('/', [ PromosController::class, 'index' ])->name('promos');
+Route::get('/', [ PromoController::class, 'index' ])->name('promos');
