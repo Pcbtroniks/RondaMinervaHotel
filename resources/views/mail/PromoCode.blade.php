@@ -114,9 +114,11 @@ table.body .article {
                         <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;text-align:center;">QR CODE: <span style="color:#f39b3a"> {{$data['code']}}</span></p>
                         
                         <p style="font-family: sans-serif; font-size: 14px; text-align:center;">
-                          {{-- <img src="{!!$message->embedData(QrCode::format('png')->size(208)->generate(route('promos.verify', ['promo_code' => $data['code']])), 'QrCode.png', 'image/png')!!}"> --}}
+                          {{--<img src="{!!$message->embedData(QrCode::format('png')->size(208)->generate(route('promos.verify', ['promo_code' => $data['code']])), 'QrCode.png', 'image/png')!!}">--}}
+                          <img src="data:image/png;base64, {!!base64_encode(QrCode::format('png')->size(208)->generate(route('promos.verify', ['promo_code' => $data['code']])))!!}">
                           <!-- QR -->
-                          <img src="{!!QrCode::size(208)->generate(route('promos.verify', ['promo_code' => $data['code']]))!!}">
+                          {{-- $message->embedData(QrCode::format('png')->size(208)->generate(route('promos.verify', ['promo_code' => $data['code']])), 'QrCode.png', 'image/png') --}}
+                          {{-- <img src="{!!QrCode::size(208)->generate(route('promos.verify', ['promo_code' => $data['code']]))!!}"> --}}
                         </p>
                         <p style="font-family: sans-serif; font-size: 14px; text-align:center;">
                           <a href="{{ route('promos.verify', ['promo_code' => $data['code']]) }}"
