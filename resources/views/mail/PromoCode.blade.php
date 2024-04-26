@@ -114,11 +114,12 @@ table.body .article {
                         <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;text-align:center;">QR CODE: <span style="color:#f39b3a"> {{$data['code']}}</span></p>
                         
                         <p style="font-family: sans-serif; font-size: 14px; text-align:center;">
-                          {{-- {{ QrCode::size(208)->generate('https://rondaminervahotel.com/promos/verify/' . $data['code']) }} --}}
-                          <img src="{!!$message->embedData(QrCode::format('png')->size(208)->generate('https://rondaminervahotel.com/promos/verify/' . $data['code']), 'QrCode.png', 'image/png')!!}">
+                          {{-- <img src="{!!$message->embedData(QrCode::format('png')->size(208)->generate(route('promos.verify', ['promo_code' => $data['code']])), 'QrCode.png', 'image/png')!!}"> --}}
+                          <!-- QR -->
+                          <img src="{!!QrCode::size(208)->generate(route('promos.verify', ['promo_code' => $data['code']]))!!}">
                         </p>
                         <p style="font-family: sans-serif; font-size: 14px; text-align:center;">
-                          <a href="https://rondaminervahotel.com/promos/verify"
+                          <a href="{{ route('promos.verify', ['promo_code' => $data['code']]) }}"
                           style="display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;background-image:none;border:1px solid;border-radius:4px;color:#fff;background-color:#f39b3a;border-color:#f39b3a;text-decoration:none"
                           title="Ir a sitio web" target="_blank">CONSULTAR CUPON : 
                           {{ $data['code'] }}</a>

@@ -22,7 +22,7 @@ class PromoController extends Controller
     public function __construct(Promos $promoRepo)
     {
         $this->promoRepo = new $promoRepo;
-        $this->ReceptionEmail = 'promociones@rondaminervahotel.com';
+        $this->ReceptionEmail = 'jean.langarica@pcbtroniks.com';
     }
 
     public function index($promoCode = false) {
@@ -80,8 +80,6 @@ class PromoController extends Controller
 
     public function sendPromoByEmail(Request $request, $code){
         
-        return;
-
         $data = $request->validate([
             'name' =>   'required',
             'phone'=>   'required',
@@ -93,13 +91,11 @@ class PromoController extends Controller
 
         $data['code'] = $code ?? '';
 
-        Mail::to([$this->ReceptionEmail, $data['email']])->queue(new PromoCodeMailable($data));
+        return Mail::to([$this->ReceptionEmail, $data['email']])->queue(new PromoCodeMailable($data));
 
     }
 
     public function pdf($data = false){
-
-        // $pdf = App::make('dompdf.wrapper');
 
         $data = $this->promoRepo->dumpyData();
 
