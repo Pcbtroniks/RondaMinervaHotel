@@ -46,6 +46,14 @@
                             <li>Numero de Personas: {{$promo->amount_of_people}}</li>
                             <li>Ultimos 4: {{substr($promo->card, -4)}}</li>
                         </ul>
+                        <div>
+                            <p style="font-family: sans-serif; font-size: 14px; text-align:center;">
+                            <a href="{{ route('promos.coupon.download', ['promo_code' => $promo->code]) }}"
+                            style="display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;background-image:none;border:1px solid;border-radius:4px;color:#fff;background-color:#f39b3a;border-color:#f39b3a;text-decoration:none"
+                            title="Ir a sitio web" target="_blank">Descarcarg mi cupon : 
+                            {{ $promo->code }}</a>
+                            </p>
+                        </div>
                         <div class="social-links">
                             <a href="https://www.facebook.com/Hotel-Ronda-Minerva-108156711973719/"><i class="fa fa-facebook"></i></a>
                             <a href="https://www.instagram.com/hotelrondaminerva/"><i class="fa fa-instagram"></i></a>

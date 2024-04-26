@@ -101,11 +101,15 @@ class PromoController extends Controller
 
         $pdf = PDF::loadView('promos.pdf', compact('data'));
 
-        
-        // $pdf->loadView('promos.pdf');
+        return $pdf->stream();
+    }
 
-        return $pdf->download('promo-cupon.pdf');
-        
+    public function downloadCoupon($promo_code){
+
+        $data = $this->promoRepo->verify($promo_code);
+
+        $pdf = PDF::loadView('promos.pdf', compact('data'));
+
         return $pdf->stream();
     }
 }
