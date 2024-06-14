@@ -31,7 +31,7 @@
                             <span>un hospedaje inolvidable</span>
                             <h2>Ubicado en el corazón de <br />Guadalajara</h2>
                         </div>
-                        <a href="https://www.google.com.mx/maps/dir//Arborea+Hotel,+Av.+Adolfo+L%C3%B3pez+Mateos+Sur+265,+Jardines+del+Bosque,+44520+Guadalajara,+Jal./@20.6701069,-103.3916311,17z/data=!4m19!1m9!3m8!1s0x80d93819465554a7:0x56a11423a2e9cc6b!2sArborea+Hotel!5m2!4m1!1i2!8m2!3d20.6701069!4d-103.3894424!4m8!1m0!1m5!1m1!1s0x80d93819465554a7:0x56a11423a2e9cc6b!2m2!1d-103.3894424!2d20.6701069!3e2" class="primary-btn bg-orange-ronda">Como llegar</a>
+                        <a target="_blank" href="https://www.google.com/maps/place/Hotel+Ronda+Minerva/@20.6701112,-103.3893606,15z/data=!4m2!3m1!1s0x0:0x56a11423a2e9cc6b?sa=X&ved=1t:2428&ictx=111" class="primary-btn bg-orange-ronda">Como llegar</a>
                     </div>
                 </div>
             </div>
