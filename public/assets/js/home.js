@@ -8,18 +8,14 @@ submitReservationBtn.addEventListener('click', function(){
     QueryString.adults = Number(ReservationForm.adults.value);
     QueryString.children = Number(ReservationForm.minors.value);
 
-    // return console.log(linkReservationEngine(QueryString));
     ReservationForm.reset();
     window.open(linkReservationEngine(QueryString));
-    // window.location.replace(linkReservationEngine(QueryString));
-    // ReservationForm.action = linkReservationEngine(QueryString);
-    // ReservationForm.submit();
 })
 
 initDatePicker();
 
 function linkReservationEngine(query){
-    return `https://direct-book.com/properties/HotelarboreaDirect?locale=${query.locale ?? 'en'}&items[0][adults]=${query.adults ?? 0}&items[0][children]=${query.children ?? 0}&items[0][infants]=0&currency=MXN&checkInDate=${query.checkInDate ?? ''}&checkOutDate=${query.checkOutDate ?? ''}&trackPage=no`;
+    return 'https://hotels.cloudbeds.com/reservation/Y4Crx5';
 }
 
 function makeQuery(){

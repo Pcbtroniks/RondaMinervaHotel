@@ -21,7 +21,7 @@
 
         <div class="md:mt-4 mt-10 md:mb-28 mb-14 relative">
             
-            <a target="_blank" href="https://direct-book.com/properties/HotelarboreaDirect">
+            <a target="_blank" href="https://hotels.cloudbeds.com/reservation/Y4Crx5">
                 <button class="w-36 h-12 font-bold bg-ronda-orange text-white text-sm">Reservar Ahora</button>
             </a>
 
