@@ -36,3 +36,7 @@ Route::get('/satisfaction-survey/count/results', [SatisfactionSurveyController::
 // Construction pages
 
 Route::get('/recomended-rooms', function () {return view('recomended-rooms.index');})->name('recomended-rooms');
+
+Route::get('/direct-booking', function() {
+    return redirect('https://hotels.cloudbeds.com/reservation/Y4Crx5');
+})->name('direct-booking');
