@@ -7,17 +7,18 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NCRQMBP9');</script>
+    })(window,document,'script','dataLayer','GTM-PHS33GGP');</script>
     <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGBV6TW84F"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGBV6TW84F"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-TGBV6TW84F');
+    gtag('config', 'G-TGBV6TW84F'); -->
     </script>
+    <!-- Google tag (gtag.js) -->
     <meta charset="UTF-8">
     <meta name="description" content="Ronda Minerva Hotel en Guadalajara, Jalisco">
     <meta name="keywords" content="Hotel, comfort, alberca, minerva, gdl, barato, tequila, centro">
@@ -75,8 +76,8 @@
 </head>
 
 <body>
-        <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCRQMBP9"
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHS33GGP"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Page Preloder -->
