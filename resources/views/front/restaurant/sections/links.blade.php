@@ -2,7 +2,7 @@
 
     <div class="px-4 flex flex-col items-center pb-16">
 
-        <a target="_blank" href="{{ asset('assets') }}/menus/al-eden-menu-desayunos.pdf" class="bg-white flex items-center my-5 py-4 px-2 sm:px-4 rounded-full shadow-card-hard sm:w-[29.25rem] w-[20.5rem]">
+        <a target="_blank" href="{{ url('/') }}/menus/al-eden-menu-desayunos.pdf" class="bg-white flex items-center my-5 py-4 px-2 sm:px-4 rounded-full shadow-card-hard sm:w-[29.25rem] w-[20.5rem]">
             <div class="w-[4.5rem]">
                 <img class="w-full" src="{{ asset('assets/r.svg') }}" alt="Logo restaurant">
             </div>
@@ -12,7 +12,7 @@
             </div>
         </a>
 
-        <a target="_blank" href="{{ asset('assets') }}/menus/al-eden-menu-comidas-y-cenas.pdf" class="bg-white flex items-center my-5 py-4 px-2 sm:px-4 rounded-full shadow-card-hard sm:w-[29.25rem] w-[20.5rem]">
+        <a target="_blank" href="{{ url('/') }}/menus/al-eden-menu-comidas-y-cenas.pdf" class="bg-white flex items-center my-5 py-4 px-2 sm:px-4 rounded-full shadow-card-hard sm:w-[29.25rem] w-[20.5rem]">
             <div class="w-[4.5rem]">
                 <img class="w-full" src="{{ asset('assets/r.svg') }}" alt="Logo restaurant">
             </div>
