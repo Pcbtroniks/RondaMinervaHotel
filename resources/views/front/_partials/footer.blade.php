@@ -32,11 +32,11 @@
 
     <div class="bg-[#212529] p-3">
         <ul class="flex flex-wrap gap-4 justify-center font-bold text-white text-lg">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Habitaciones</a></li>
-            <li><a href="#">Instalaciones</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Servicios</a></li>
+            <li><a href="{{ route('home') }}">Inicio</a></li>
+            <li><a href="{{ route('rooms') }}">Habitaciones</a></li>
+            <li><a href="{{ route('installations') }}">Instalaciones</a></li>
+            <li><a href="{{ route('contact') }}">Contacto</a></li>
+            <li><a href="{{ route('services') }}">Servicios</a></li>
         </ul>
         <div>
             <p class="text-center text-white text-xs mt-2">
